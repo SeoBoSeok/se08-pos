@@ -1,4 +1,4 @@
-Copyright (c) 2017 David Kim
+Copyright (c) 2017 ggybbo
 
 MIT License
 

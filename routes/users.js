@@ -1,8 +1,3 @@
-// Copyright (c) 2017 David Kim
-// This program is licensed under the "MIT License".
-// Please see the file COPYING in the source
-// distribution of this software for license terms.
-
 var express = require('express');
 var router = express.Router();
 var passport = require('passport');
