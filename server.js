@@ -19,11 +19,7 @@ var express = require('express'),
 var app = express();
 
 // connect to a local database
-// mongoose.connect('mongodb://localhost/pos');
-
-// or, connect to MongoDB's Atlas (a cloud-hosted MongoDB service)
-// var uri = "mongodb://djk3:Da72vid87!@openposcluster-shard-00-00-zb2uf.mongodb.net:27017,openposcluster-shard-00-01-zb2uf.mongodb.net:27017,openposcluster-shard-00-02-zb2uf.mongodb.net:27017/OpenPOS?ssl=true&replicaSet=OpenPOSCluster-shard-0&authSource=admin";
-var uri = "mongodb://heroku_mkjmfwl5:m2n9u47vhk1rh7u0nlfk7d5lot@ds239965.mlab.com:39965/heroku_mkjmfwl5";
+mongoose.connect('mongodb://localhost/pos');
 mongoose.connect(uri, {
 	useMongoClient: true
 });
