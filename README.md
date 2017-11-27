@@ -16,6 +16,16 @@ E-mail: ggy7bbo@gmail.com
 
 ## How to use
 
+Clone the repository with: `git clone https://github.com/SeoBoSeok/se08-pos.git`
+
+Go into directory: `cd se08-pos`
+
+Install dependency npm packages: `npm install`
+
+Run: `npm start`
+
+---
+
 If you wants to use remote DB like MongoLab,
 You have to change code into right database address.
 
